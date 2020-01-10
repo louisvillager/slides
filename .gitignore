@@ -1,0 +1,5 @@
+# To ignore files created by Visual Studio
+.vs/
+
+# Ignoring working files
+wip/

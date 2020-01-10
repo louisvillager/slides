@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+
+html {
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-image: url(../img/symphony-dark.png); /* Background pattern from Toptal Subtle Patterns */
+  position: relative;
+}
+
+h1 {
+  padding-left: 1rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#main-nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.list-group-item {
+  padding: .25rem .5rem;
+  text-align: center;
+}
+
+#reviews {
+  padding-top: 106px;
+  margin: 0 1em;
+}
+
+.carousel {
+  display: inline-block;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+#finished {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  padding: 20px 0;
+}
+
+footer {
+  width: 100%;
+  max-width: 1000px;
+}
+
+footer p {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 1em;
+}
+
+
+/*** FONTS ***/
+h1, h2, h3 {
+  font-family: 'Trajan Pro', serif;
+}
+
+.list-group-item,
+p {
+  font-family: Amaranth, sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+/*** COLORS ***/
+
+main {
+  background-color: #fff;
+}
+
+#main-nav,
+.list-group-item,
+footer {
+  background-color: #36454f; /* charcoal gray */
+  color: #f0ead6; /* eggshell */
+}
+
+#nav-titles>a.active {
+  background-color: #ff7f00; /* orange */
+  color: #000;
+  border: 1px solid transparent;
+}
